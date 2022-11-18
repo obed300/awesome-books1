@@ -1,0 +1,20 @@
+.book-title{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.Add-btn{
+    margin-top: 10px;
+}
+
+.books-container{
+    display: block;
+}
+
+.remove{
+    margin-top: 5px;
+}
+
+.hori{
+    width: 250px;
+}
