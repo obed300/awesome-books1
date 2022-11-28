@@ -1,20 +1,59 @@
-.book-title{
-    margin-bottom: 10px;
-    margin-top: 10px;
+body{
+    display: flex;
+    justify-content: center;
+    
 }
-
-.Add-btn{
-    margin-top: 10px;
+.main-title{
+    display: flex;
+    justify-content: center;
 }
 
 .books-container{
     display: block;
+    border: solid;
+    
+    
+}
+
+
+.list-container:nth-child(even){
+    width: 600px;
+    background-color: rgb(209, 209, 209);
+    
+    
+}
+
+.new-lib{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+     margin-left: 5px;
 }
 
 .remove{
+    margin-right: 15px;
+    padding: 5px;
     margin-top: 5px;
+
 }
 
-.hori{
-    width: 250px;
+.line{
+    background-color: black;
+    height: 1.5px;
+    width: 25%
+    
+}
+
+
+.inpoot{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.add-btn{
+    display: flex;
+    justify-content: flex-end;
+    width: 387px;
+    margin-top: 10px;
 }
