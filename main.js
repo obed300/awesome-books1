@@ -3,13 +3,13 @@ const bookauthor = document.querySelector('.bookauthor-input');
 const booktitle = document.querySelector('.booktitle-input');
 const bookscontainer = document.querySelector('.books-container');
 const form = document.querySelector('.form');
+const listings = document.querySelector('.listings');
+const listclick = document.querySelector('#list-click');
+const addclick = document.querySelector('#add-click');
+const contactclick = document.querySelector('#contact-click');
+const maincontact = document.querySelector('.main-contact');
 
 // BOOK CLASS: REPRESENT A BOOK
-
-
-
-
-
 
 class Book {
     constructor(title, author) {
@@ -92,7 +92,29 @@ class Book {
     Book.removeBook(fe.firstChild.textContent, fe.lastChild.textContent);
   });
 
+  listclick.addEventListener('click', function(e){
+    e.preventDefault();
+     listings.style.display = 'block';
+     form.style.display = 'none';
+     maincontact.style.display = 'none';
+     
+  });
 
+  addclick.addEventListener('click', function(e){
+    e.preventDefault();
+     form.style.display = 'block';
+     listings.style.display = 'none';
+     maincontact.style.display = 'none';
+  })
+
+  contactclick.addEventListener('click', function(e){
+    e.preventDefault();
+     maincontact.style.display = 'block';
+     listings.style.display = 'none';
+     form.style.display = 'none';
+  })
+
+  
 
 
 
