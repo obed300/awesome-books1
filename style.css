@@ -1,20 +1,31 @@
-.book-title{
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-.Add-btn{
-    margin-top: 10px;
-}
-
-.books-container{
-    display: block;
-}
-
-.remove{
-    margin-top: 5px;
-}
-
-.hori{
+.container {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  hr {
+    margin-left: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    clear: left;
     width: 250px;
-}
+  }
+  
+  .book-list {
+    margin-left: 50px;
+  }
+  .title{
+    margin-top: -5px;
+    margin-bottom: -15px;
+  }
+  .author{
+    margin-bottom: 0px;
+  }
