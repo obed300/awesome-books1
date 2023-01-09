@@ -74,6 +74,7 @@ class Book {
   }
   
   document.addEventListener('DOMContentLoaded', Book.displayBooks);
+  
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     booktitle.value;
