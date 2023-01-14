@@ -9,7 +9,7 @@ In this project, I built a basic website that allows users to add/remove books f
 
 ## Live Demo
 
-https://obed300.github.io/awesomebooks-es6/
+https://obed300.github.io/awesome-books1/
 
 ## Getting Started
 
