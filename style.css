@@ -159,3 +159,7 @@ body {
   border: solid;
   margin-top: 5px;
 }
+
+a:hover {
+  background-color: rgb(121, 121, 118);
+}
